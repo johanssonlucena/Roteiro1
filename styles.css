@@ -5,10 +5,14 @@
     box-sizing: border-box;
 }
 
+h1  {
+
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f8f8f8;
+    background-color: #f7f1f1;
 }
 
 .container {
@@ -56,12 +60,13 @@ nav ul li a:hover {
 
 .section {
     padding: 80px 0;
-    background-color: #fff;
+    background-color: #f7eded;
 }
 
 .section h2 {
     font-size: 28px;
     margin-bottom: 20px;
+
 }
 
 .cardapio-item {
@@ -74,7 +79,7 @@ nav ul li a:hover {
 
 .cardapio-item:hover {
     transform: translateY(-5px);
-    background-color: #bbd4d8; /* Escolha outra Cor de fundo que o elemento deverá assumir ao passarmos o mouse sobre ele */
+    background-color: #f0e6e6; /* Escolha outra Cor de fundo que o elemento deverá assumir ao passarmos o mouse sobre ele */
 }
 
 .cardapio-item h3 {
