@@ -122,3 +122,23 @@ footer {
     background-size: cover;
     background-position: center;
 }
+
+h2 {
+    text-align: center;
+    position: relative;
+  }
+  h2:before,
+  h2:after {
+    content: "";
+    width: 35%;
+    height: 1px;
+    background: #555;
+    position: absolute;
+    top: 50%;
+  }
+  h2:before {
+    left: 0;
+  }
+  h2:after {
+    right: 0;
+  }
