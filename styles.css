@@ -12,22 +12,14 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 90%; /* Ajuste da largura para telas menores */
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    position: fixed;
-    width: 100%;
-    top: 0;
-}
-
 header h1 {
-    font-size: 20px;
+    font-size: 24px; /* Redução o tamanho da fonte para se adequar a telas menores */
 }
 
 nav ul {
@@ -73,12 +65,12 @@ nav ul li a:hover {
 }
 
 .cardapio-item {
-    margin-bottom: 30px;
-    padding: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     transition: transform 0.3s ease, background-color 0.3s ease; /* Adicionamos a transição para background-color */
-}
+    }
 
 .cardapio-item:hover {
     transform: translateY(-5px);
@@ -99,4 +91,29 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url('./imagens/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url('./imagens/padaria.jpg');
+    background-size: cover;
+    background-position: center;
 }
